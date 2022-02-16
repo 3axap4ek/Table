@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color:burlywood;
+}
+
+.show{
+   display: none;
+}
+
+.check_block:first-child{
+    margin-top: 5px;
+}
+
+.check_block{
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+table {
+    width:50%;
+  
+
+}
+
+tr{
+    text-align: center;
+    border: 2px solid black;
+  
+    
+}
+
+th, td {
+    width: 100px;
+   
+}
+
+.aboutMain{
+    min-width: 300px;
+    text-align: left;
+   min-height: 100px;
+}
+
+textarea{
+    width: 250px;
+   
+    display: flex;
+  
+}
+
+.check_block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+
